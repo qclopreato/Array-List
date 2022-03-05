@@ -1,10 +1,10 @@
 document.getElementById(`submit`).addEventListener(`click`, function(){
-    const myArray = []
-    myArray.push(document.getElementById(`first`).value)
-    myArray.push(document.getElementById(`second`).value)
-    myArray.push(document.getElementById(`third`).value)
-    myArray.push(document.getElementById(`fourth`).value)
-    myArray.push(document.getElementById(`fifth`).value)
+    const myArray = [];
+    myArray.push(document.getElementById(`first`).value);
+    myArray.push(document.getElementById(`second`).value);
+    myArray.push(document.getElementById(`third`).value);
+    myArray.push(document.getElementById(`fourth`).value);
+    myArray.push(document.getElementById(`fifth`).value);
     for (i=0;i<5;i++){
           console.log(myArray[i]);
         if(i==0){
@@ -23,6 +23,5 @@ document.getElementById(`submit`).addEventListener(`click`, function(){
             document.getElementById(`fifthOut`).innerHTML = myArray[i];
         }
     }
-})
-
+});
 
